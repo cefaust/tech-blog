@@ -22,4 +22,5 @@ With is project I was tasked with creating a CMS-style blog site.  This will all
 16. After being idle on the site for a set time. The user is asked to log in again before they came add, update, or delete comments.
 
 [tech-blog](https://github.com/cefaust/tech-blog)<br>
-![tech-blog](./public/images/tech-blog.jpg)
+![tech-blog](./public/images/tech-blog.jpg) <br>
+[tech-blog deployment](https://tech-blog-97369.herokuapp.com/)
