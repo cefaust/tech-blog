@@ -1,0 +1,37 @@
+#body {
+  background-color: #355764;
+}
+#signUpOrLoginInstead {
+  text-decoration: none;
+  color: white;
+}
+
+header {
+  background-color: #5A8F7B;
+}
+
+#postLink {
+  text-decoration: none;
+  color: #FFEA11;
+}
+#postCard {
+  background-color: #355764;
+  border-color: white;
+  color: white ;
+}
+#postTitle {
+  color: #FFEA11;
+}
+
+.navLoginBtn {
+  color: white;
+  text-decoration: none;
+}
+
+#commentForm{
+  background-color: #5A8F7B ;
+}
+
+.updatePost {
+  margin-top: 5px;
+}

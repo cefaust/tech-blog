@@ -1,0 +1,17 @@
+[
+  {
+    "text": "MVC makes file management easier",
+    "user_id": "2",
+    "post_id": "1"
+  },
+  {
+    "text": "I did not know the difference",
+    "user_id": "1",
+    "post_id": "2"
+  },
+  {
+    "text": "I love Sequelize!",
+    "user_id": "1",
+    "post_id": "2"
+  }
+]

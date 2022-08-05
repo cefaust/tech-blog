@@ -1,0 +1,24 @@
+<div id="postCard" class="card ">
+  <div class="card-body">
+    <h2 id="postTitle" class="card-title border-bottom">Edit Post</h2>
+
+    <form class="form-group ">
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Title</label>
+        <textarea id="post-title" class="form-control commentForm" id="exampleFormControlTextarea1" rows="1">{{ title }}</textarea>
+        <label for="exampleFormControlTextarea1">Content</label>
+        <textarea id="post-desc" class="form-control commentForm" id="exampleFormControlTextarea1" rows="3">{{ post_description }}</textarea>
+        <div class="d-grid gap-2">
+          <button class="btn btn-primary border-light updatePost">Update</button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+        <div class="d-grid gap-2">
+          <button class="btn btn-danger border-light " type="button" data-id="{{id}}">Delete</button>
+        </div>
+</div>
+
+
+  <script src="/js/singlePost.js"></script>
