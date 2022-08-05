@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { Post, User } = require('../../models');
+const { Post, User, Comment } = require('../../models');
 const withAuth = require('../../utils/auth');
 
 router.post('/', withAuth, async (req, res) => {
@@ -43,14 +43,16 @@ router.get('/:id', withAuth, async (req, res) => {
      include: [
        {
          model: User,
-         attributes: ['username']
        },
+       {
+         model: Comment,
+       }
      ],
    });
 
 
    const post = postData.get({plain: true});
-
+    console.log(postData);
    res.render('singlePost', {
      ...post,
      logged_in: req.session.logged_in
@@ -78,7 +80,7 @@ router.put('/:id', withAuth, async (req, res) => {
 })
 
 
-router.post('/:id',  async (req,res) => {
+router.post('/:id', withAuth, async (req,res) => {
   console.log('Start of post route');
   console.log(req.body);
   try {

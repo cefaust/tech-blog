@@ -35,3 +35,11 @@ header {
 .updatePost {
   margin-top: 5px;
 }
+
+.commentText {
+  color: #E8AA42;
+}
+
+.commentDate {
+  color: #E8AA42
+}

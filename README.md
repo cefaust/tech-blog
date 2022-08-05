@@ -20,3 +20,6 @@ With is project I was tasked with creating a CMS-style blog site.  This will all
 14. When the user clicks on one of the existing post, they are able to delete or update the post. then be taken back to the updated dashboard.
 15. When the user clicks on the logout option in the navigation, they will be signed out of the site.
 16. After being idle on the site for a set time. The user is asked to log in again before they came add, update, or delete comments.
+
+[tech-blog](https://github.com/cefaust/tech-blog)<br>
+![tech-blog](./public/images/tech-blog.jpg)

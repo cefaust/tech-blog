@@ -16,15 +16,15 @@
 </form>
 
 <div  id="postCard" class="card" >
-  <h2 class="text-light">Comments</h2>
-{{#if comment}}
+  <h2 class="text-light border-bottom">Comments</h2>
+{{#each comments as |comment|}}
 
-  <div class="card-body">
-    <div  class="card-title text-danger">{{text}}</div>
-    <h6 class="card-subtitle mb-2">{{user.username}}, {{format_date comment.date_created}}</h6>
+  <div class="card-body border-bottom">
+    <div  class="card-title commentText">{{text}}</div>
+    <h6 class="card-subtitle mb-2 commentDate" >{{comment.user.username}}, {{format_date date_created}}</h6>
+
   </div>
-
-{{/if}}
+{{/each}}
 </div>
 
 
